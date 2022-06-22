@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+#NAV{
+    background-image: linear-gradient(to right, rgba(174,96,213,0.7), rgba(138,101,238,0.9)),url(/image/mf.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.backgroundText{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bgBotton{
+    background-color: #FA6F86;
+    border: none;
+    border-radius: 20px;
+}
+
+.imageIcon{
+    background-color: blueviolet;
+    width: 5rem;
+    border-radius: 100%;
+    padding:10px;
+    margin: 1rem auto;
+}
+
