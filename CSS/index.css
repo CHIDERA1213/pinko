@@ -3,6 +3,11 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -11,6 +16,7 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
 }
 
 .backgroundText{
@@ -34,3 +40,89 @@ body{
     margin: 1rem auto;
 }
 
+#section5{
+    background-image: linear-gradient(to right, rgba(174,96,213,0.7), rgba(138,101,238,0.9)),url(/image/mf.jpg);
+    /* height: 65vh; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+  .planCo{
+    background-color:#8261EE;
+    padding: 34px 0 0.5px 0;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.planCom{
+    background-color:#FF589E;
+    padding: 34px 0 0.5px 0;
+    color: white;
+    border-radius: 20px;
+}
+
+.packageText p{
+    font-size: 12px;
+}
+.packageText{
+    margin:2rem 0;
+}
+
+.choose{
+    background-color: #8261EE;
+    padding: 5 25px;
+    width: 80%;
+    border-radius: 25px;
+    color: white;
+}
+
+.choose:hover{
+    background-color: #8261EE;
+    color: white;
+    outline: none;
+}
+
+#section8{
+    background-image: linear-gradient(to right, rgba(174,96,213,0.7), rgba(138,101,238,0.9)),url(/image/mf.jpg);
+    /* height: 65vh; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    padding: 6rem 0 5rem 0;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.ReadBtn{
+    background-color: #8261EE;
+    padding: 5 25px;
+    width: 50%;
+    border-radius: 25px;
+    color: white;
+}
+/* .FooterBtn{
+    background-color: #8261EE;
+    padding: 5 25px;
+    width: 20%;
+    border-radius: 25px;
+    color: white;
+} */
+
+#Footersection{
+    background-color: #8261EE;
+    color: #fff;
+    padding: 30px;
+}
+.blogBtn{
+    border-radius: 20px;
+    background-color: #8261EE;
+    margin-top: 1rem;
+}
+
+
+@media screen  and (max-width:768px) {
+    
+}
