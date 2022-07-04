@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>softypinko</title>
     <link rel="stylesheet" href="/CSS/boostrap.min.css">
-    <link rel="stylesheet" href="/CSS/index.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/aos.css" />
+    <link rel="stylesheet" href="/CSS/index.css">
 </head>
 <section id="NAV">
             <nav class="navbar navbar-expand-lg navbar-light ">
@@ -46,7 +47,7 @@
             </div>
             <div class="container text-center  backgroundText text-light">
                 <h3>We provide the best strategy to </h3>
-                <h4>grow up your Start Up</h4>
+                <h4>grow up your <span class="text-slider"></span></h4>
                 <p class="mt-5">Softy Pinko is a professional Bootstrap 4.0 theme designed by <br> Template Mo for your company at absolutely free of charge</p>
                 <input class="py-2 px-4 bgBotton" type="submit" value="Discover More">
             </div>
@@ -55,46 +56,52 @@
 <section id="about">
     <div class="container">
         <div class="row justify-content-center align-items-center mt-5 text-center">
-            <div class="card shadow " style="width: 18rem;">
-                <div class="imageIcon">
-                      <img src="/image/icon soft 1.png" class="card-img-top mx-auto " alt="...">
-                    </div>
-              
-                <div class="card-body">
-                  <p class="card-text">
-                      Modern Strategy
-                   </p>
+          <div class="col-lg-4 col-md-6 col-10">
+            <div data-aos="fade-down" class="card shadow  m-4 p-3 shadow border-0">
+              <div class="imageIcon">
+                    <img src="/image/icon soft 1.png" class="card-img-top mx-auto " alt="...">
+                  </div>
+            
+              <div class="card-body">
+                <p class="card-text">
+                    Modern Strategy
+                 </p>
 
-                   <p> Customize anything in this template to fit your website needs</p>
-                </div>
+                 <p> Customize anything in this template to fit your website needs</p>
               </div>
+            </div>
+          </div>
 
-              <div class="card m-4 p-3 shadow" style="width: 18rem;">
-                <div class="imageIcon">
-                      <img src="/image/icon soft 1.png" class="card-img-top mx-auto " alt="...">
-                    </div>
-              
-                <div class="card-body">
-                  <p class="card-text">
-                      Best Relationship
-                    </p>
-                    <p>Contact us immediately if you have a question in mind</p>
-                </div>
+          <div class="col-lg-4 col-md-6 col-10">
+            <div class="card m-4 p-3 shadow border-0">
+              <div class="imageIcon">
+                    <img src="/image/icon soft 1.png" class="card-img-top mx-auto " alt="...">
+                  </div>
+            
+              <div class="card-body">
+                <p class="card-text">
+                    Best Relationship
+                  </p>
+                  <p>Contact us immediately if you have a question in mind</p>
               </div>
+            </div>
+          </div>
 
-              <div class="card shadow" style="width: 18rem;">
-                <div class="imageIcon">
-                      <img src="/image/icon soft 1.png" class="card-img-top mx-auto " alt="...">
-                    </div>
-              
-                <div class="card-body">
-                  <p class="card-text">
-                      Ultimate Marketing
-                    </p>
+          <div class="col-lg-4 col-md-6 col-10">
+            <div class="card shadow m-4 p-3 border-0" data-aos="fade-down">
+              <div class="imageIcon">
+                    <img src="/image/icon soft 1.png" class="card-img-top mx-auto " alt="...">
+                  </div>
+            
+              <div class="card-body">
+                <p class="card-text">
+                    Ultimate Marketing
+                  </p>
 
-                    <p>You just need to tell your friends about our free templates</p>
-                </div>
+                  <p>You just need to tell your friends about our free templates</p>
               </div>
+            </div>
+          </div>
     </div>
 
 </section>
@@ -335,22 +342,22 @@
   <div class="container-lg">
     <div class="row justify-content-center align-items-center text-center g-3">
       <div class="col-lg-3 col-md-6 col-sm-12">
-        <h3>126</h3>
+        <h3 class="counter">126</h3>
         <p>Projects</p>
       </div>
 
      <div class="col-lg-3 col-md-6 col-sm-12">
-        <h3>63</h3>
+        <h3 class="counter">63</h3>
         <p>Happy Clients</p>
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12">
-        <h3>18</h3>
+        <h3 class="counter">18</h3>
         <p>Awards Wins</p>
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12">
-        <h3>27</h3>
+        <h3 class="counter">27</h3>
         <p>Countries</p>
       </div>
 
@@ -365,9 +372,12 @@
         <h2>Blog Entries</h2>
         <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.</p>
       </div>
-      <div class="col-lg-4 col-5">
+      <div class="col-lg-4 col-md-6 col-10">
         <div class="card border-0">
-          <img src="/image/image soft1.png" class="card-img-top" alt="...">
+          <div class="Zoom">
+            <img src="/image/image soft1.png" class="card-img-top" alt="...">
+          </div>
+         
           <div class="card-body text-center">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -376,9 +386,12 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-5">
+      <div class="col-lg-4 col-md-6 col-10 my-5">
         <div class="card border-0">
-          <img src="/image/image soft 2.png" class="card-img-top" alt="...">
+          <div class="Zoom">
+            <img src="/image/image soft 2.png" class="card-img-top" alt="...">
+          </div>
+         
           <div class="card-body text-center">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -388,9 +401,11 @@
       </div>
 
 
-      <div class="col-lg-4 col-5">
+      <div class="col-lg-4 col-md-6 col-10 mb-3">
         <div class="card border-0">
-          <img src="/image/image soft 3.png" class="card-img-top" alt="...">
+          <div class=" Zoom">
+            <img src="/image/image soft 3.png" class="card-img-top" alt="...">
+          </div>
           <div class="card-body text-center">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -403,28 +418,28 @@
 
 <section id="section10" style="margin:5rem 0 0 0 ; padding: 100px;" class="bg-light">
   <div class="container">
-    <div class="row">
+    <div class="row g-4">
       <div class="text-center">
         <h2>Talk to Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis.</p>
       </div>
 
-      <div class=" col-lg-4 col-md-6">
+      <div class=" col-lg-4 col-md-6 mb-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Unde recusandae.</p>
       </div>
       <div class=" col-lg-4 col-md-6">
-        <input class="border-0 ps-3" type="text" style="width:350px ;  height: 50%; outline: none; border-radius: 30px;" placeholder="Name">
+        <input class="border-0 ps-3" type="text" style="padding: 1rem 5rem; outline: none; border-radius: 30px;" placeholder="Name">
       </div>
       <div class=" col-lg-4 col-md-6">
-        <input class="border-0 ps-3" type="text" style="width:350px; height: 50%; border-radius: 30px;" placeholder="Email">
+        <input class="border-0 ps-3" type="text" style="padding: 1rem 5rem; border-radius: 30px;" placeholder="Email">
       </div>
 
-      <div class=" col-lg-4 col-md-6">
+      <div class=" col-lg-4 col-md-6 mb-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Unde recusandae.</p>
       </div>
-      <div class=" col-lg-4 col-md-6">
+      <div class=" col-lg-8">
         <div class="input-group">
-          <textarea class="form-control" style="width:100%; height: 150px; border-radius: 10px;" placeholder="Text Us"></textarea>
+          <textarea class="form-control border-0 p-3" style=" height: 150px; border-radius: 30px;" placeholder="Text Us"></textarea>
         </div>
         <div class=" justify-content-center text-center mt-4 align-items-center" style="width:50%; border-radius: 25px; padding: 5 25px;  background-color: #8261EE; color: white; ">
           <a href="#" class="btn  FooterBtn">Read More</a>
@@ -463,7 +478,16 @@
   </div>
 
 </section>
+
+<script src="/JAVASCRIPT/jquery.min.js"></script>
+<script src="/JAVASCRIPT/jquery.counterup.min.js"></script>
+<script src="/JAVASCRIPT/jquery.waypoints.min.js"></script>
+
+<script src="/JAVASCRIPT/typed.js"></script>
 <script src="/JAVASCRIPT/bootstrap.min.js"></script>
+<script src="/JAVASCRIPT/aos.js"></script>
+
+<script src="/JAVASCRIPT/main.js"></script>
 <body>
     
 </body>
